@@ -18,16 +18,16 @@ public class MortgageCalculator2020 extends BaseMortgageCalculator implements Ca
     @Override
     public int findTheGroup( ) {
         int group;
-        if (customer.getAge() < 30 && customer.getMonthlyIncome() > 2500) {
+        if (customer.getAge() < 25 && customer.getMonthlyIncome() > 2300) {
             group = 1;
             ENABLE = true;
             System.out.println("belongs to group " + group);
-        } else if (customer.getAge() < 30 && customer.getMonthlyIncome() < 2500 && customer.getPrincipal()>250_000 && customer.getYears()>20 ) {
+        } else if (customer.getAge() < 25 && customer.getMonthlyIncome() < 2300 && customer.getPrincipal()>30000 && customer.getYears()>15 ) {
             group = 2;
             ENABLE = false;
             System.out.println("belongs to group " + group);
 
-        } else if (customer.getAge() >= 30 && customer.getMonthlyIncome() >= 3500 ) {
+        } else if (customer.getAge() >= 25 && customer.getMonthlyIncome() >= 2600 ) {
             group = 3;
             ENABLE = true;
             System.out.println("belongs to group " + group);
