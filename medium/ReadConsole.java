@@ -57,7 +57,7 @@ public class ReadConsole  {
 
         while (age > max || age < min) {
             System.out.println("The age entered is not appropriate " +
-                    "Please enter an another value between 20 and 60 or press q  to exit.");
+                    "Please enter an another value between "+min+" and " +max+ " or press q  to exit.");
             String string_age = mScanner.next();
 
             if (string_age.equalsIgnoreCase("q")) {
