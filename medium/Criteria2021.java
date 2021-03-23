@@ -1,6 +1,6 @@
 package medium;
 
-public class Criteria2020 extends BaseMortgageCriteria {
+public class Criteria2021 extends BaseMortgageCriteria {
 
     private static Criteria2020 sInstance;
     public static Criteria2020 getInstance() {

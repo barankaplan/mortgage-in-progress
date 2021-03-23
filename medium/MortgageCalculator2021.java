@@ -3,7 +3,7 @@ package medium;
 
 import java.text.NumberFormat;
 
-public class MortgageCalculator2020 extends BaseMortgageCalculator implements Calculable {
+public class MortgageCalculator2021 extends BaseMortgageCalculator implements Calculable {
 
 
     private final static byte MONTHS_IN_YEAR = 12;
@@ -11,7 +11,7 @@ public class MortgageCalculator2020 extends BaseMortgageCalculator implements Ca
     private static boolean ENABLE = true;
     private BaseCustomerCreater customer;
 
-    public MortgageCalculator2020(BaseCustomerCreater customer) {
+    public MortgageCalculator2021(BaseCustomerCreater customer) {
         this.customer = customer;
     }
 
