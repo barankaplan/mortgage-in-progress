@@ -6,6 +6,8 @@ public class Main {
         customer1.createCustomer2019();
         var customer2 = new CheckAvailability();
         customer2.createCustomer2020();
+        var customer3 = new CheckAvailability();
+        customer3.createCustomer2021();
 
     }
 }
