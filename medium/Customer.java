@@ -1,11 +1,14 @@
 package medium;
 
+import org.jetbrains.annotations.NotNull;
+
 public class Customer extends BaseCustomerCreater {
     private   int age ;
     private   int monthly_income ;
     private   int principal ;
     private   float annualInterest;
     private   byte years;
+    private String name;
 
     @Override
     public int getAge() {
@@ -49,4 +52,36 @@ public class Customer extends BaseCustomerCreater {
     public void setYears(byte years) {
         this.years = years;
     }
+
+    @Override
+    public void setName(String name) {
+        this.name=name;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    @Override
+    public int compareTo(@NotNull BaseCustomerCreater o) {
+        if (this.getMonthlyIncome() > o.getMonthlyIncome()) {
+            return 1;
+        } else if (this.getMonthlyIncome() < o.getMonthlyIncome()) {
+            return -1;
+        }
+        return 0;
+    }
+
+
+//    @Override
+//    public String toString() {
+//        return "Customer{" +
+//                "name='" + name + '\'' +
+//                '}';
+//    }
+
+
+
+
 }

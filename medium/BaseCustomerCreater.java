@@ -1,6 +1,6 @@
 package medium;
 
-public abstract class BaseCustomerCreater {
+public abstract class BaseCustomerCreater implements Comparable<BaseCustomerCreater> {
     public abstract int  getAge();
 
     public abstract void setAge(int age);
@@ -21,5 +21,8 @@ public abstract class BaseCustomerCreater {
 
     public abstract void setYears(byte years);
 
+
+    public abstract void setName(String name);
+    public abstract String getName( );
 
 }

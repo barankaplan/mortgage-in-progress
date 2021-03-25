@@ -31,7 +31,7 @@ public class MortgageReport  {
         System.out.println(ConsumerDatabase.getAgeList().toString());
         System.out.println(ConsumerDatabase.getMonthlyIncome().toString());
         System.out.println(ConsumerDatabase.getPrincipal().toString());
-
+        ConsumerDatabase.optimumCustomer();
 
     }
     public void printAll(){
