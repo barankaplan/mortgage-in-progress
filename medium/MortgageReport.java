@@ -16,7 +16,7 @@ public class MortgageReport  {
 
 
         String mortgageFormatted = NumberFormat.getCurrencyInstance().format(calculator.calculateMortgage());
-        System.out.println();
+        System.out.println() ;
         System.out.println("MORTGAGE");
         System.out.println("--------");
         System.out.println("Monthly Payments: " + mortgageFormatted);
