@@ -1,24 +1,24 @@
 
-Z	java:S106E"9Replace this use of System.out or System.err by a logger.(àŞ»ºşÿÿÿÿ8Œ÷—Ó†/
-Z	java:S106;"9Replace this use of System.out or System.err by a logger.(ˆ÷ÿÿÿÿÿ8Œ÷—Ó†/
 o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÕííøÿÿÿÿ8Œ÷—Ó†/
-U	java:S106y"9Replace this use of System.out or System.err by a logger.(ŠÒ×Ë8Œ÷—Ó†/
-r	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íó·€üÿÿÿÿ8Œ÷—Ó†/
-Z	java:S106/"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ8Œ÷—Ó†/
-n
-java:S1192K"LDefine a constant instead of duplicating this literal "That's not " 4 times.(äÎû»øÿÿÿÿ8Œ÷—Ó†/
-r	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÆ¤–üÿÿÿÿ8Œ÷—Ó†/
+Z	java:S106]"9Replace this use of System.out or System.err by a logger.(àŞ»ºşÿÿÿÿ8Œ÷—Ó†/
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(äÎû»øÿÿÿÿ8Œ÷—Ó†/
+V	java:S106…"9Replace this use of System.out or System.err by a logger.(ŠÒ×Ë8Œ÷—Ó†/
 x
 java:S1488o"\Immediately return this expression instead of assigning it to the temporary variable "name".(¾÷ä8Œ÷—Ó†/
-U	java:S1064"9Replace this use of System.out or System.err by a logger.(²ã Ç8Œ÷—Ó†/
-Z	java:S106]"9Replace this use of System.out or System.err by a logger.(àŞ»ºşÿÿÿÿ8Œ÷—Ó†/
-Z	java:S106?"9Replace this use of System.out or System.err by a logger.(š§¦ıÿÿÿÿ8Œ÷—Ó†/
+r	java:S117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íó·€üÿÿÿÿ8Œ÷—Ó†/
+r	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òİ¿»øÿÿÿÿ8Œ÷—Ó†/
+Z	java:S106n"9Replace this use of System.out or System.err by a logger.(•°¬ñûÿÿÿÿ8Œ÷—Ó†/
 Z	java:S106V"9Replace this use of System.out or System.err by a logger.(Êˆü—ûÿÿÿÿ8Œ÷—Ó†/
 }
 java:S1192K"[Define a constant instead of duplicating this literal "a valid value. Try again: " 3 times.(äÎû»øÿÿÿÿ8Œ÷—Ó†/
-Z	java:S106K"9Replace this use of System.out or System.err by a logger.(äÎû»øÿÿÿÿ8Œ÷—Ó†/
-Z	java:S106c"9Replace this use of System.out or System.err by a logger.(äÎû»øÿÿÿÿ8Œ÷—Ó†/
-V	java:S106…"9Replace this use of System.out or System.err by a logger.(ŠÒ×Ë8Œ÷—Ó†/
-r	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òİ¿»øÿÿÿÿ8Œ÷—Ó†/
-Z	java:S106n"9Replace this use of System.out or System.err by a logger.(•°¬ñûÿÿÿÿ8Œ÷—Ó†/
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(ˆ÷ÿÿÿÿÿ8Œ÷—Ó†/
+n
+java:S1192K"LDefine a constant instead of duplicating this literal "That's not " 4 times.(äÎû»øÿÿÿÿ8Œ÷—Ó†/
 U	java:S106Y"9Replace this use of System.out or System.err by a logger.(æ¦ı¥8Œ÷—Ó†/
+r	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÆ¤–üÿÿÿÿ8Œ÷—Ó†/
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ8Œ÷—Ó†/
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(àŞ»ºşÿÿÿÿ8Œ÷—Ó†/
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(äÎû»øÿÿÿÿ8Œ÷—Ó†/
+U	java:S106y"9Replace this use of System.out or System.err by a logger.(ŠÒ×Ë8Œ÷—Ó†/
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(²ã Ç8Œ÷—Ó†/
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(š§¦ıÿÿÿÿ8Œ÷—Ó†/
