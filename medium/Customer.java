@@ -74,12 +74,10 @@ public class Customer extends BaseCustomerCreater {
     }
 
 
-//    @Override
-//    public String toString() {
-//        return "Customer{" +
-//                "name='" + name + '\'' +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "name: "+getName()+"\n age: "+getAge()+"\n monthly income: "+getMonthlyIncome()+"\n";
+    }
 
 
 

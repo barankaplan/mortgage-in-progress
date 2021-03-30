@@ -26,8 +26,10 @@ public  class ConsumerDatabase {
         System.out.println("Optimum Customer demanded  : " + optimumCostumer.getPrincipal() + "\n"+
                 "her/his name is  : " + optimumCostumer.getName()+"\n"+
                 "and "+optimumCostumer.getAge()+" years old.");
-        Collections.sort(ConsumerDatabase.getcustomer());
+        Collections.sort(ConsumerDatabase.getcustomer(), new AgeComparator());
         System.out.println(customers);
+        //generic class implements generic interface
+        Collections.sort(ConsumerDatabase.getcustomer(),new ReverseComparator<>(new AgeComparator()));
     }
 
     public static List<Integer> getAgeList() { return ageList;}
