@@ -5,7 +5,7 @@ import java.text.NumberFormat;
 /* encapsulation : All mathematical operations related to calculations based here*/
 
 /* we extend BaseMortgageCalculator, the calculation steps are the same, but the contents change over the years */
-public class MortgageCalculator2019 extends BaseMortgageCalculator implements Calculable {
+public class MortgageCalculator2019 extends BaseMortgageCalculator  {
     /*abstract class cant be instantiated , we can only extend it */
     /*In contrast final classes cannot be inherited.we can't extend them anymore! N0 inheritance!
     We use them when we’ve made certain assumptions about a class and we want to prevent
@@ -45,7 +45,7 @@ public class MortgageCalculator2019 extends BaseMortgageCalculator implements Ca
         return group;
     }
     @Override
-    public double[] payment_schedule() {
+    public double[] paymentSchedule() {
         var balances = new double[getNumberOfPayments()];
         for (short month = 1; month <= getNumberOfPayments(); month++) {
             System.out.println(NumberFormat.getCurrencyInstance().format(calculateBalance(month)));

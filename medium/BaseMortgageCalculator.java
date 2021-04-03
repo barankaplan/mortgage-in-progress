@@ -13,6 +13,7 @@ public abstract class BaseMortgageCalculator {
     public abstract double calculateBalance(short numberOfPaymentsMade);
 
 
+    public abstract double calculateMortgage();
 
-
+    public abstract double[] paymentSchedule();
 }

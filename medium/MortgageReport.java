@@ -7,9 +7,9 @@ import java.util.Arrays;
 public class MortgageReport  {
 
 
-    private final Calculable calculator;
+    private final BaseMortgageCalculator calculator;
 
-    public MortgageReport(Calculable calculator) {
+    public MortgageReport(BaseMortgageCalculator calculator) {
         this.calculator = calculator;
     }
     private void printMortgage() {
@@ -25,7 +25,7 @@ public class MortgageReport  {
         System.out.println();
         System.out.println("PAYMENT SCHEDULE");
         System.out.println("----------------");
-        System.out.println(Arrays.toString(calculator.payment_schedule()));
+        System.out.println(Arrays.toString(calculator.paymentSchedule()));
     }
     private void printDatabase(){
         System.out.println(ConsumerDatabase.getAgeList().toString());

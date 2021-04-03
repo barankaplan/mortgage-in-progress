@@ -21,3 +21,9 @@ G
 medium/ReadConsole.java,f/9/f99cb74e3af734d17d30f32011d043a71dd30a87
 J
 medium/MortgageReport.java,f/5/f5ba8ebf22cbcc1bd778faaba7ec1838cf7b0de0
+R
+"medium/BaseMortgageCalculator.java,c/f/cfa890e4a157ef0c7cdfd5bb007a43225566bd75
+F
+medium/Calculable.java,8/2/82580250a1faeb323ef3bcf626d0e2464fae5de5
+R
+"medium/MortgageCalculator2019.java,2/9/29677e58744511f7ff19c748053fbe860ae41c34

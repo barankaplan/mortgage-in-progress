@@ -3,7 +3,7 @@ package medium;
 
 import java.text.NumberFormat;
 
-public class MortgageCalculator2020 extends BaseMortgageCalculator implements Calculable {
+public class MortgageCalculator2020 extends BaseMortgageCalculator  {
 
 
     private final static byte MONTHS_IN_YEAR = 12;
@@ -41,7 +41,7 @@ public class MortgageCalculator2020 extends BaseMortgageCalculator implements Ca
     }
 
     @Override
-    public double[] payment_schedule() {
+    public double[] paymentSchedule() {
         var balances = new double[getNumberOfPayments()];
         for (short month = 1; month <= getNumberOfPayments(); month++) {
             System.out.println(NumberFormat.getCurrencyInstance().format(calculateBalance(month)));
@@ -64,7 +64,7 @@ public class MortgageCalculator2020 extends BaseMortgageCalculator implements Ca
     @Override
     public double calculateMortgage() {
         enableMethod();
-        System.out.println("Calculated in 2019");
+        System.out.println("Calculated in 2020");
         float monthlyInterest = getMonthlyInterest();
         float numberOfPayments = getNumberOfPayments();
 
