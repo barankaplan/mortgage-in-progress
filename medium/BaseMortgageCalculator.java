@@ -9,7 +9,7 @@ public abstract class BaseMortgageCalculator {
      */
 
 
-    public abstract int findTheGroup();
+    public abstract void findTheGroup();
     public abstract double calculateBalance(short numberOfPaymentsMade);
 
 

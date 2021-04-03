@@ -5,7 +5,7 @@ import java.text.NumberFormat;
 /* encapsulation : All mathematical operations related to calculations based here*/
 
 /* we extend BaseMortgageCalculator, the calculation steps are the same, but the contents change over the years */
-public class MortgageCalculator2019 extends BaseMortgageCalculator  {
+public class MortgageCalculator2019 extends BaseMortgageCalculator {
     /*abstract class cant be instantiated , we can only extend it */
     /*In contrast final classes cannot be inherited.we can't extend them anymore! N0 inheritance!
     We use them when we’ve made certain assumptions about a class and we want to prevent
@@ -21,7 +21,7 @@ public class MortgageCalculator2019 extends BaseMortgageCalculator  {
     }
 
     @Override
-    public int findTheGroup() {
+    public void findTheGroup() {
         int group;
         if (customer.getAge() < 30 && customer.getMonthlyIncome() > 3000) {
             group = 1;
@@ -42,7 +42,6 @@ public class MortgageCalculator2019 extends BaseMortgageCalculator  {
             System.out.println("belongs to group " + group);
 
         }
-        return group;
     }
     @Override
     public double[] paymentSchedule() {

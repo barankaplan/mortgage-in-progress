@@ -16,7 +16,7 @@ public class MortgageCalculator2021 extends BaseMortgageCalculator  {
     }
 
     @Override
-    public int findTheGroup( ) {
+    public void findTheGroup( ) {
         int group;
         if (customer.getAge() < 25 && customer.getMonthlyIncome() > 2300) {
             group = 1;
@@ -37,7 +37,6 @@ public class MortgageCalculator2021 extends BaseMortgageCalculator  {
             System.out.println("belongs to group " + group);
 
         }
-        return group;
     }
 
     @Override

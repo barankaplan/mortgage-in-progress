@@ -8,6 +8,10 @@ public class Customer extends BaseCustomerCreater {
     private   int principal ;
     private   float annualInterest;
     private   byte years;
+    private int id;
+
+
+
     private String name;
 
     @Override
@@ -32,6 +36,19 @@ public class Customer extends BaseCustomerCreater {
     public int getPrincipal() {
         return principal;
     }
+
+    @Override
+    public int getID() {
+        return id;
+    }
+
+    @Override
+    public void setID(int id) {
+        this.id=id;
+    }
+
+
+
     @Override
     public void setPrincipal(int principal) {
         this.principal = principal;
