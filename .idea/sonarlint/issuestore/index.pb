@@ -23,7 +23,11 @@ J
 medium/MortgageReport.java,f/5/f5ba8ebf22cbcc1bd778faaba7ec1838cf7b0de0
 R
 "medium/BaseMortgageCalculator.java,c/f/cfa890e4a157ef0c7cdfd5bb007a43225566bd75
-F
-medium/Calculable.java,8/2/82580250a1faeb323ef3bcf626d0e2464fae5de5
 R
 "medium/MortgageCalculator2019.java,2/9/29677e58744511f7ff19c748053fbe860ae41c34
+R
+"medium/MortgageCalculator2020.java,a/b/ab92457858d24460ea87b497245cc17436b0b2fd
+G
+medium/IdAppointed.java,d/e/de7b5aee415d9ffc88baf59558d05de598aeb0b8
+I
+medium/IdAppointment.java,1/e/1e3d9ba5522ab75feb35e041e365643332d631c7

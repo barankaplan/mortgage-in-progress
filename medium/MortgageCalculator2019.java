@@ -5,7 +5,7 @@ import java.text.NumberFormat;
 /* encapsulation : All mathematical operations related to calculations based here*/
 
 /* we extend BaseMortgageCalculator, the calculation steps are the same, but the contents change over the years */
-public class MortgageCalculator2019 extends BaseMortgageCalculator {
+public class MortgageCalculator2019 extends BaseMortgageCalculator implements IdAppointed {
     /*abstract class cant be instantiated , we can only extend it */
     /*In contrast final classes cannot be inherited.we can't extend them anymore! N0 inheritance!
     We use them when we’ve made certain assumptions about a class and we want to prevent
@@ -15,6 +15,7 @@ public class MortgageCalculator2019 extends BaseMortgageCalculator {
     private final static  byte PERCENT = 100;
     private static boolean ENABLE = true;
     private BaseCustomerCreater customer;
+    private int id=0;
 
     public MortgageCalculator2019(BaseCustomerCreater customer) {
         this.customer = customer;
@@ -52,6 +53,9 @@ public class MortgageCalculator2019 extends BaseMortgageCalculator {
         }
         return balances;
     }
+
+
+
     @Override
     public double calculateBalance(short numberOfPaymentsMade) {
 
@@ -91,4 +95,8 @@ public class MortgageCalculator2019 extends BaseMortgageCalculator {
     }
 
 
+    @Override
+    public int assignTheId( ) {
+       return  customer.setID(id++);
+    }
 }

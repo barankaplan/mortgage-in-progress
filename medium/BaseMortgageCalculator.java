@@ -16,4 +16,5 @@ public abstract class BaseMortgageCalculator {
     public abstract double calculateMortgage();
 
     public abstract double[] paymentSchedule();
+
 }

@@ -1,0 +1,27 @@
+
+[
+java:S1124
+"EReorder the modifiers to comply with the Java Language Specification.(¢„Øè
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ú±‰ğ
+L
+java:S2696"6Make the enclosing method "static" or remove this set.(¤éÖ
+L
+java:S2696 "6Make the enclosing method "static" or remove this set.(¤éÖ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(‡©ì„şÿÿÿÿ
+Q
+java:S2696$"6Make the enclosing method "static" or remove this set.(øì˜úÿÿÿÿ
+u
+java:S14889"_Immediately return this expression instead of assigning it to the temporary variable "balance".(šÑ²›
+M	java:S106B"9Replace this use of System.out or System.err by a logger.(ˆúŸ
+M	java:S106."9Replace this use of System.out or System.err by a logger.(ÇùÚ%
+h
+java:S1192"RDefine a constant instead of duplicating this literal "belongs to group " 4 times.(ú±‰ğ
+`
+java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(‡ôÄÿÿÿÿÿ
+l
+java:S3008"QRename this field "ENABLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¯¶§øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ú±‰ğ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(øì˜úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ú±‰ğ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(ú±‰ğ

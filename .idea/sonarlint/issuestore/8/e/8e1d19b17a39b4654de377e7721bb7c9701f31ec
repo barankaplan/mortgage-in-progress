@@ -1,11 +1,13 @@
 
+L
+java:S1068	"*Remove this unused "kaplan" private field.(ύ–±ύÿÿÿÿ8Η»•α‰/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ω¥ΝΞϋÿÿÿÿ8τσΣ†/
 {
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ρ…τϋÿÿÿÿ8τσΣ†/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ω¥ΝΞϋÿÿÿÿ8τσΣ†/
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(ΉΙΠωÿÿÿÿ8τσΣ†/
 v
 java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±’Φ8τσΣ†/
 \
 java:S1118":Add a private constructor to hide the implicit public one.(¦Χβΐωÿÿÿÿ8τσΣ†/
-S
-java:S1128"1Remove this unused import 'java.util.Collection'.(ΉΙΠωÿÿÿÿ8τσΣ†/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ª¦Ξ¶ψÿÿÿÿ8τσΣ†/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ª¦Ξ¶ψÿÿÿÿ8τσΣ†/

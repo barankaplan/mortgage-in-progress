@@ -13,6 +13,7 @@ public class CheckAvailability  {
         var report=new medium.MortgageReport(calculator);
         ConsumerDatabase.addCustomer(customer);
         report.printAll();
+
     }
 
     public void createCustomer2020() {

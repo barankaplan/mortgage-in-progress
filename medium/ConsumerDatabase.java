@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.List;
 
 public  class ConsumerDatabase {
-
+    private static final List<Integer> kaplan = new ArrayList<>();
     private static final List<BaseCustomerCreater> customers = new ArrayList<>();
     private static final List<Integer> ageList = new ArrayList<>();
     private static final List<Integer> monthlyIncome = new ArrayList<Integer>();
@@ -19,6 +19,7 @@ public  class ConsumerDatabase {
         principal.add(customer.getPrincipal());
         namelist.add(customer.getName());
         customers.add(customer);
+
 
     }
     public static void optimumCustomer(){

@@ -43,8 +43,9 @@ public class Customer extends BaseCustomerCreater {
     }
 
     @Override
-    public void setID(int id) {
+    public int setID(int id) {
         this.id=id;
+        return id;
     }
 
 

@@ -12,7 +12,7 @@ public abstract class BaseCustomerCreater implements Comparable<BaseCustomerCrea
     public abstract int getPrincipal();
 
     public abstract int getID();
-    public abstract void setID(int id);
+    public abstract int setID(int id);
 
     public abstract void setPrincipal(int principal);
 
@@ -27,5 +27,8 @@ public abstract class BaseCustomerCreater implements Comparable<BaseCustomerCrea
 
     public abstract void setName(String name);
     public abstract String getName( );
+
+
+
 
 }
